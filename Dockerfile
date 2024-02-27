@@ -1,10 +1,17 @@
 FROM raesene/bwapp
 
 RUN apt-get update -y
+<<<<<<< HEAD
 RUN apt install mysql-server -y 
  #   apt-get install php-mysqlnd -y 
 #RUN apt-get install apache2 -y 
 #RUN apt-get install php libapache2-mod-php -y 
+=======
+RUN apt install mysql-server -y
+ #   apt-get install php-mysqlnd -y
+#RUN apt-get install apache2 -y
+#RUN apt-get install php libapache2-mod-php -y
+>>>>>>> 0b27a9a75ed2e6b7d686af5a3e8acb3d7ecb0b4d
 #RUN a2enmod mpm_prefork && a2enmod php7.4
 
 RUN mysql -u root -e "CREATE USER 'bwapuser'@'localhost' IDENTIFIED BY 'password';"

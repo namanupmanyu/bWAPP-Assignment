@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 <!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
 <cross-domain-policy>
   <allow-access-from domain="*" />
+=======
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+  <allow-access-from domain="*" />
+>>>>>>> 0b27a9a75ed2e6b7d686af5a3e8acb3d7ecb0b4d
 </cross-domain-policy>

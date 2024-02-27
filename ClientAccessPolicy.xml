@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <access-policy>
   <cross-domain-access>
@@ -10,4 +11,18 @@
       </grant-to>
     </policy>
   </cross-domain-access>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<access-policy>
+  <cross-domain-access>
+    <policy>
+      <allow-from http-request-headers="*">
+        <domain uri="*"/>
+      </allow-from>
+      <grant-to>
+        <resource path="/" include-subpaths="true"/>
+      </grant-to>
+    </policy>
+  </cross-domain-access>
+>>>>>>> 0b27a9a75ed2e6b7d686af5a3e8acb3d7ecb0b4d
 </access-policy>
